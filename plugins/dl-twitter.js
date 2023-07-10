@@ -8,6 +8,7 @@ if (!args[0]) throw `📌 Example : \n*${usedPrefix + command}* https://twitter.
           let te = ` 
 ┌─⊷ *TWITTER DL*
 ▢ Description: ${desc}
+Made with love by Kinflux bot 
 └───────────`
 conn.sendFile(m.chat, HD, 'twitter.mp4', te, m)
 m.react(done)
