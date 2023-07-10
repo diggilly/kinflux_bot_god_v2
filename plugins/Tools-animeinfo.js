@@ -26,11 +26,12 @@ let handler = async (m, { conn, text, usedPrefix }) => {
 ♦ • *Trailer:* ${result.trailer.url}
 🌐 • *URL:* ${result.url}
 🎆 • *Background:* ${resultes.text}
-❄ • *Synopsis:* ${resultes2.text}`;
+❄ • *Synopsis:* ${resultes2.text}
+_made with love by kinflux bot`;
 
     conn.sendFile(m.chat, result.images.jpg.image_url, 'error.jpg', AnimeInfo, m);
   } catch {
-    throw `*[❗] ERROR, please try again.*`;
+    throw `*[❗] ERROR, please 😢try again.*`;
   }
 };
 
