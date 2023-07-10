@@ -16,7 +16,7 @@ export async function before(m, { conn }) {
  *${before}* ‣  *${user.level}*
  ROLE : *${user.role}*
  
- _to deactivate write_
+ _to deactivate write this_
 _*/off autolevelup*_
 	`.trim())
     }
