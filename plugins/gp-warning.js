@@ -22,13 +22,13 @@ let handler = async (m, { conn, text, args, groupMetadata, usedPrefix, command }
 You received a warning from an admin
 
 ▢ *Warns:* ${warn + 1}/${war} 
-if you receive *${war}* warnings you will be automatically removed from the group`, who)
+if you receive *${war}* warnings you will be automatically removed from the group. From kinflux bot🐱‍👤`, who)
         } else if (warn == war) {
             global.db.data.users[who].warn = 0
             m.reply(`⛔ The user exceeded the *${war}* warnings will therefore be removed`)
             await time(3000)
             await conn.groupParticipantsUpdate(m.chat, [who], 'remove')
-            m.reply(`♻️ You were removed from the group *${groupMetadata.subject}* because you have been warned *${war}* times`, who)
+            m.reply(`♻️ You were removed from the group *${groupMetadata.subject}* because you have been warned *${war}* times. MESSAGE ADMIN TO RECONSIDER HIS DECISION🐱‍👤`, who)
         }
 }
 handler.help = ['warn @user']
