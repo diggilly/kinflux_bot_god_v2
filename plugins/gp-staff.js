@@ -9,6 +9,7 @@ let text = `
 
 ┌─⊷ *ADMINS*
 ▢ ${listAdmin}
+Listed with love💖 by kinflux bot
 └───────────
 `.trim()
 conn.sendFile(m.chat, pp, 'staff.png', text, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
