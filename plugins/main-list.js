@@ -8,36 +8,36 @@ let lkr = `❀° ┄──•••───╮
        𝘽𝙊𝙏 𝙈𝙀𝙉𝙐  
 ╰───•••──┄ °❀     
 ┏━━━ʕ•㉨•ʔ━━━┓
-⎪⌲👑 _${usedPrefix}ping_
-⎪⌲👑 _${usedPrefix}uptime_
-⎪⌲👑 _${usedPrefix}bot_
-⎪⌲👑 _${usedPrefix}owner_
-⎪⌲👑 _${usedPrefix}script_
-⎪⌲👑 _${usedPrefix}runtime_
-⎪⌲👑 _${usedPrefix}infobot_
-⎪⌲👑 _${usedPrefix}donate_
-⎪⌲👑 _${usedPrefix}groups_
-⎪⌲👑 _${usedPrefix}blocklist_
-⎪⌲👑 _${usedPrefix}listprem_
-⎪⌲👑    Guru
+⎪⌲🤖 _${usedPrefix}ping_
+⎪⌲🤖 _${usedPrefix}uptime_
+⎪⌲🤖 _${usedPrefix}bot_
+⎪⌲🤖 _${usedPrefix}owner_
+⎪⌲🤖 _${usedPrefix}script_
+⎪⌲🤖 _${usedPrefix}runtime_
+⎪⌲🤖 _${usedPrefix}infobot_
+⎪⌲🤖 _${usedPrefix}donate_
+⎪⌲🤖 _${usedPrefix}groups_
+⎪⌲🤖 _${usedPrefix}blocklist_
+⎪⌲🤖 _${usedPrefix}listprem_
+⎪⌲🤖    kinflux bot 
 ┗━━━ʕ•㉨•ʔ━━━┛
 
 ❀° ┄──•••───╮
      𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐  
 ╰───•••──┄ °❀     
 ┏━━━ʕ•㉨•ʔ━━━┓
-⎪⌲👑 _${usedPrefix}banchat_
-⎪⌲👑 _${usedPrefix}unbanchat_
-⎪⌲👑 _${usedPrefix}banuser_
-⎪⌲👑 _${usedPrefix}unbanuser_
-⎪⌲👑 _${usedPrefix}Broadcast_
-⎪⌲👑 _${usedPrefix}Broadcastgc_
-⎪⌲👑 _${usedPrefix}join_
-⎪⌲👑 _${usedPrefix}setppbot_
-⎪⌲👑 _${usedPrefix}setprefix_
-⎪⌲👑 _${usedPrefix}resetprefix_
-⎪⌲👑 _${usedPrefix}getfile_
-⎪⌲👑 _${usedPrefix}getplugin_
+⎪⌲🎭 _${usedPrefix}banchat_
+⎪⌲🎭 _${usedPrefix}unbanchat_
+⎪⌲🎭 _${usedPrefix}banuser_
+⎪⌲🎭 _${usedPrefix}unbanuser_
+⎪⌲🎭 _${usedPrefix}Broadcast_
+⎪⌲🎭 _${usedPrefix}Broadcastgc_
+⎪⌲🎭 _${usedPrefix}join_
+⎪⌲🎭 _${usedPrefix}setppbot_
+⎪⌲🎭 _${usedPrefix}setprefix_
+⎪⌲🎭 _${usedPrefix}resetprefix_
+⎪⌲🎭 _${usedPrefix}getfile_
+⎪⌲🎭 _${usedPrefix}getplugin_
 ┗━━━ʕ•㉨•ʔ━━━┛
 ${readMore}
 ❀° ┄──•••───╮
@@ -446,6 +446,7 @@ ${readMore}
 ° 📝 .logo Black-Metal
 ° 📝 .logo 3D-Glowing-Metal
 ° 📝 .logo 3D-Chrome
+  kinflux digital
 ┗━━━ʕ•㉨•ʔ━━━┛`
 conn.sendFile(m.chat, pp, 'perfil.jpg', lkr, m, false, { mentions: [who] })
 m.react(done)
