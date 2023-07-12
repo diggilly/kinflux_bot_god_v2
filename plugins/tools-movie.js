@@ -41,7 +41,9 @@ let imdbHandler = async (m, { conn, text }) => {
      • *Production:* ${json.production}\n
      • *Website:* ${json.website}\n\n
      *Ratings:*\n${ratings}
-     .made with love by *Kinflux bot*`;
+*╭───•✧✧•───╮
+GENERATED WITH LOVE BY 𝐊𝐈𝐍𝐅𝐋𝐔𝐗 𝐁𝐎𝐓
+╰───•✧✧•───╯*`;
 
     // send the movie poster along with the movie information as caption
     await conn.sendFile(m.chat, json.poster, 'poster.jpg', movieInfo, m);
