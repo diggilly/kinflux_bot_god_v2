@@ -1,22 +1,49 @@
 
 <p align="center">  
   <a href="https://youtu.be/WcA7GZuaN0A">
-    <img alt="Guru" height="300" src="https://cdn.jsdelivr.net/gh/Guru322/api@Guru/guru.jpg">
-    <h1 align="center">GURU-BOT</h1>
+    <img alt="KINFLUX BOT" height="300" src="https://github.com/diggilly/kinflux_bot_God/blob/main/Guru.jpg">
+    <h1 align="center">kinflux-bot</h1>
+  </a>
+<p align="center">  
+  <a href="https://youtu.be/WcA7GZuaN0A">
+    <img alt="KINFLUX BOT" height="300" src="https://github.com/diggilly/kinflux_bot_God/blob/main/Guru.jpg">
+    <h1 align="center">kinflux-bot</h1>
+  </a>
+</p>
+<p align="center">  
+  <a href="https://youtu.be/WcA7GZuaN0A">
+    <img alt="KINFLUX BOT" height="300" src="https://github.com/diggilly/kinflux_bot_God/blob/main/Guru.jpg">
+    <h1 align="center">kinflux-bot</h1>
   </a>
 </p>
 <p align="center">
-<a href="https://github.com/Guru322"><img title="Author" src="https://img.shields.io/badge/GURU-BOT-black?style=for-the-badge&logo=telegram"></a>
+<a href="https://github.com/diggilly"><img title="Author" src="https://img.shields.io/badge/KINFLUX-BOT-black?style=for-the-badge&logo=telegram"></a>
 <p/>
 <p align="center">
-<a href="https://github.com/Guru322?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Guru322?label=Followers&style=social"></a>
-<a href="https://github.com/Guru322/GURU-BOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Guru322/GURU-BOT?&style=social"></a>
-<a href="https://github.com/Guru322/GURU-BOT/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Guru322/GURU-BOT?style=social"></a>
-<a href="https://github.com/Guru322/GURU-BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Guru322/GURU-BOT?label=Watching&style=social"></a>
+<a href="https://github.com/diggilly?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/diggilly?label=Followers&style=social"></a>
+<a href="https://github.com/diggilly/kinflux_bot_God/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Guru322/GURU-BOT?&style=social"></a>
+<a href="https://github.com/diggilly/kinflux_bot_God/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Guru322/GURU-BOT?style=social"></a>
+<a href="https://github.com/diggilly/kinflux_bot_God/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/diggilly/kinflux_bot_God?label=Watching&style=social"></a>
+</p>
+</p>
+<p align="center">  
+  <a href="https://youtu.be/WcA7GZuaN0A">
+    <img alt="KINFLUX BOT" height="300" src="https://github.com/diggilly/kinflux_bot_God/blob/main/Guru.jpg">
+    <h1 align="center">kinflux-bot</h1>
+  </a>
+</p>
+<p align="center">
+<a href="https://github.com/diggilly"><img title="Author" src="https://img.shields.io/badge/KINFLUX-BOT-black?style=for-the-badge&logo=telegram"></a>
+<p/>
+<p align="center">
+<a href="https://github.com/diggilly?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/diggilly?label=Followers&style=social"></a>
+<a href="https://github.com/diggilly/kinflux_bot_God/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Guru322/GURU-BOT?&style=social"></a>
+<a href="https://github.com/diggilly/kinflux_bot_God/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Guru322/GURU-BOT?style=social"></a>
+<a href="https://github.com/diggilly/kinflux_bot_God/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/diggilly/kinflux_bot_God?label=Watching&style=social"></a>
 </p>
 
 ####  
-GURU-BOT- Simple Multi Device whatsapp bot.
+kinflux-bot- Simple Multi Device whatsapp bot. ⚡️ Lightning-Fast Responses: 300 feutures and many more
 
 ***
 
@@ -24,48 +51,11 @@ GURU-BOT- Simple Multi Device whatsapp bot.
 
 1. Fork the repo
     <br>
-<a href='https://github.com/Guru322/GURU-BOT/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://github.com/diggilly/kinflux_bot_God/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 2. Scan the QR and upload guru.data.json to your fork(will recieve it on your bot number after scanning)
     <br>
-<a href='https://replit.com/@Guru322/GURU-BOT-QR-CODE-GENERATOR?v=1' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
-
-
-
-#### DEPLOY TO Heroku 
-
-1. If You don't have an account in Heroku. Create a account.
-    <br>
-<p align="center"><a href="https://signup.heroku.com"> <img src="https://img.shields.io/badge/heroku%20Account-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
-
-2. Watch the following video to create Heroku acc for free.
-    <br>
-<p align="center"><a href="https://www.youtube.com/watch?v=J_Sq5OxK8ZE"> <img src="https://img.shields.io/badge/heroku%20Tutorial-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
-
-3. Now Deploy
-    <br>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Guru322/GURU-BOT"> <img src="https://img.shields.io/badge/Heroku%20Deploy-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
-
-#### DEPLOY TO OKTETO 
-
-1. If You don't have an account On Okteto. Create a account.
-    <br>
-<p align="center"><a href="https://www.okteto.com/pricing/?plan=SaaS"> <img src="https://img.shields.io/badge/Okteto%20Account-blue?style=for-the-badge&logo=okteto" width="220" height="38.45"/></a></p>
-
-2. Now Deploy
-    <br>
-<p align="center"><a href=""> <img src="https://img.shields.io/badge/Okteto%20Deploy-blue?style=for-the-badge&logo=okteto" width="220" height="38.45"/></a></p>
-
-
-#### DEPLOY TO Replit 
-
-1. If You don't have an account in Replit. Create a account.
-    <br>
-<p align="center"><a href="https://replit.com/signup"> <img src="https://img.shields.io/badge/replit%20Account-blue?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
-
-2. Now Deploy
-    <br>
-<p align="center"><a href="https://repl.it/github/avi453/GURU-BOT"> <img src="https://img.shields.io/badge/replit%20Deploy-blue?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
+<a href='https://replit.com/@digildigil/Kinflux-bot-QR-CODE-GENERATOR?v=1' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 #### DEPLOY TO COOLIFY (Error occurs when server gets overloaded)
 
