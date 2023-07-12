@@ -7,7 +7,7 @@ let handler = async (m, { conn, usedPrefix, command, args, text }) => {
   
   if (!mime) throw '⚠️️ Reply to an image or video.';
   if (!text) throw '⚠️️ Enter the new file size for the image/video.';
-  if (isNaN(text)) throw '🔢 Only numbers are allowed.';
+  if (isNaN(text)) throw '🔢 Only numbers are allowed👻.';
   
   if (!/image\/(jpe?g|png)|video|document/.test(mime)) throw '⚠️️ Unsupported format.';
   
