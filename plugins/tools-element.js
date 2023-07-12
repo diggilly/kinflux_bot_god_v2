@@ -24,7 +24,10 @@ let elementHandler = async (m, { conn, text }) => {
      • *Period:* ${json.period}\n
      • *Phase:* ${json.phase}\n
      • *Discovered By:* ${json.discovered_by}\n
-     • *Summary:* ${json.summary}`;
+     • *Summary:* ${json.summary}
+╭───•✧✧•───╮
+GENERATED WITH LOVE BY 𝐊𝐈𝐍𝐅𝐋𝐔𝐗 𝐁𝐎𝐓
+╰───•✧✧•───╯`;
 
     conn.sendFile(m.chat, json.image, 'element.jpg', elementInfo, m);
   } catch (error) {
