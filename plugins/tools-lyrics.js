@@ -9,6 +9,9 @@ let handler = async (m, {conn, text }) => {
   let json = await res.json()
   if (!json.thumbnail.genius) throw json
   conn.sendFile(m.chat, json.thumbnail.genius, null, `
+ ╭───•✧✧•───╮
+GENERATED WITH LOVE BY 𝐊𝐈𝐍𝐅𝐋𝐔𝐗 𝐁𝐎𝐓
+╰───•✧✧•───╯
 ▢ *${json.title}*
 *${json.author}*\n
 ${json.lyrics}`, m)
