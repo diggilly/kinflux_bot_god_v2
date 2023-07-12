@@ -23,7 +23,10 @@ let itunesHandler = async (m, { conn, text }) => {
      • *Price:* ${json.price}\n
      • *Length:* ${json.length}\n
      • *Genre:* ${json.genre}\n
-     • *URL:* ${json.url}`;
+     • *URL:* ${json.url}
+     ╭───•✧✧•───╮
+GENERATED WITH LOVE BY 𝐊𝐈𝐍𝐅𝐋𝐔𝐗 𝐁𝐎𝐓
+╰───•✧✧•───╯`;
 
     // Check if thumbnail is present, then send it with songInfo as caption
     if (json.thumbnail) {
