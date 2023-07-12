@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 	
 	if (!global.db.data.chats[m.chat].nsfw) throw `🚫 group doesnt supprt nsfw \n\n enable it by \n*${usedPrefix}enable* nsfw`
     let user = global.db.data.users[m.sender].age
-    if (user < 17) throw m.reply(`❎ uneed to be atleast 18 years`) 
+    if (user < 17) throw m.reply(`❎ uneed to be atleast 18 years🥵`) 
    
 m.react(rwait)
 let type = (command).toLowerCase()
