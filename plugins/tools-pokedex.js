@@ -20,6 +20,9 @@ let handler = async (m, { conn, text }) => {
 *Height:* ${json.height}
 *Weight:* ${json.weight}
 *Description:* ${json.description}
+╭───•✧✧•───╮
+GENERATED WITH LOVE BY 𝐊𝐈𝐍𝐅𝐋𝐔𝐗 𝐁𝐎𝐓
+╰───•✧✧•───╯
 `;
 
   conn.sendMessage(m.chat, { text: message }, 'extendedTextMessage', { quoted: m });
