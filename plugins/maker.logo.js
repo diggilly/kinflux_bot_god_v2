@@ -2,8 +2,8 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 	 let name = conn.getName(m.sender)
     let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://i.imgur.com/whjlJSf.jpg')
     let user = global.db.data.users[m.sender]
-   let tee = `✳️ Enter a short text\n\n📌 Example  : *${usedPrefix + command}* GURU`
-   let too = `✳️ Separate the text with a *+* \n\n📌 Example : \n*${usedPrefix + command}* GURU *+* BOT`
+   let tee = `✳️ Enter a short text\n\n📌 Example  : *${usedPrefix + command}* kinflux`
+   let too = `✳️ Separate the text with a *+* \n\n📌 Example : \n*${usedPrefix + command}* kinflux *+* BOT`
     m.react(rwait)
 let type = (command).toLowerCase()
 switch (type) {
