@@ -18,7 +18,9 @@ let { code, msg } = res.status
 if (code !== 0) throw msg
 let { title, artists, album, genres, release_date } = res.metadata.music[0]
 let txt = `
-𝚁𝙴𝚂𝚄𝙻𝚃
+                ╭───•✧✧•───╮
+ 𝚁𝙴𝚂𝚄𝙻𝚃 GENERATED WITH LOVE BY 𝐊𝐈𝐍𝐅𝐋𝐔𝐗 𝐁𝐎𝐓
+                ╰───•✧✧•───╯
 • 📌 *TITLE*: ${title}
 • 👨‍🎤 𝙰𝚁𝚃𝙸𝚂𝚃: ${artists !== undefined ? artists.map(v => v.name).join(', ') : 'NOT FOUND'}
 • 💾 𝙰𝙻𝙱𝚄𝙼: ${album.name || 'NOT FOUND'}
@@ -27,7 +29,7 @@ let txt = `
 `.trim()
 fs.unlinkSync(`./tmp/${m.sender}.${ext}`)
 m.reply(txt)
-} else throw '*𝚁𝙴𝚂𝙿𝙾𝙽𝙳 𝙰𝚄𝙳𝙸𝙾*'
+} else throw '*𝚁𝙴𝚂𝙿𝙾𝙽𝙳 TO 𝙰𝚄𝙳𝙸𝙾 TO SEARCH FOR. _from kinflux bo_*'
 }
 handler.command = /^quemusica|shazam|whatmusic$/i
 export default handler
