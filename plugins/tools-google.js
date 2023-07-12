@@ -12,7 +12,10 @@ let handler = async (m, { conn, command, args }) => {
         url,
         description
     }) => {
-        return `*${title}*\n_${url}_\n_${description}_`
+        return `*${title}*\n_${url}_\n_${description}_
+╭───•✧✧•───╮
+GENERATED WITH LOVE BY 𝐊𝐈𝐍𝐅𝐋𝐔𝐗 𝐁𝐎𝐓
+╰───•✧✧•───╯`
     }).join('\n\n')
     try {
         let ss = await (await fetch(global.API('nrtm', '/api/ssweb', { delay: 1000, url, full }))).arrayBuffer()
