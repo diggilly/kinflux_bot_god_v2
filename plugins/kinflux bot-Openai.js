@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 import { ChatGpt } from '../lib/scraper.js';
 let handler = async (m, { text, usedPrefix, command }) => {
-    if (!text) throw `*Enter a request or an order to use ChatGpt*\n\n*Example*\n* ${usedPrefix + command} series 2022 Netflix*\n* ${usedPrefix + command} tell us a joke*`;
+    if (!text) throw `*Enter a request or an order to use ChatGpt*\n\n*Example*\n* ${usedPrefix + command} series 2022 Netflix*\n* ${usedPrefix + command} tell us a crazy joke*`;
     try {
       const systemMessage = 'Analyzing your request...';
       const response = await ChatGpt(text, systemMessage);
