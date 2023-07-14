@@ -2,7 +2,12 @@
 let handler = async (m, { conn }) => {
 	
 	await conn.fetchBlocklist().then(async data => {
-		let txt = `*≡ List *\n\n*Total :* ${data.length}\n\n┌─⊷\n`
+		let txt = `
+  ╭───•✧✧•───╮
+*≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 SCRIPT*
+╰───•✧✧•───╯
+       ≻───── ⋆✩⋆ ─────≺
+*≡ List *\n\n*Total :* ${data.length}\n\n┌─⊷\n`
 		for (let i of data) {
 			txt += `▢ @${i.split("@")[0]}\n`
 		}
