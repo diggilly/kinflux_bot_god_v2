@@ -10,7 +10,12 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
       }) * 1000
     }
     let muptime = clockString(_muptime)
-   m.reply(`⏳ *Kinflux bot active duration*  \n\n${muptime}`) 
+   m.reply(`
+╭───•✧✧•───╮
+*≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 SCRIPT*
+╰───•✧✧•───╯
+≻───── ⋆✩⋆ ─────≺
+⏳ *Kinflux bot active duration*  \n\n${muptime}`) 
 }
 handler.help = ['runtime']
 handler.tags = ['main']
