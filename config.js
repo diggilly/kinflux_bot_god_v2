@@ -7,13 +7,13 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['6283861440946', 'kyy', true],
-  ['6283137808331', 'kyy', true], 
+  ['2250545752448', '『𝕮𝕯❦』⇝͜͡✪🏴‍☠️⃠⃤ΣRRΩR💀⃠⃤⇝͜͡✪', true],
+  ['254110377776', 'zamzack254', true], 
   [''] 
 ] //Number of owners
 
-global.mods = ['6283861440946','6283137808331'] 
-global.prems = ['254110077535', '254110377776', '254765777423']
+global.mods = ['254110077535','254110377776'] 
+global.prems = ['254110077535', '254110377776', '2250545752448']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -47,7 +47,7 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'kinflux bot'
+global.botname = 'ₖᵢₙFₗᵤₓ Bₒₜ 🐉'
 global.premium = 'true'
 global.packname = 'kinflux┃ᴮᴼᵀ' 
 global.author = 'zamzack254' 
@@ -59,7 +59,7 @@ global.fgpyp = ''
 global.fglog = 'https://raw.githubusercontent.com/diggilly/kinflux-bot/main/Guru.jpg' 
 
 
-global.wait = '*⌛ _loading..._*\n*▰▰▰▱▱▱▱▱*'
+global.wait = '*⌛ _kinflux bot loading..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
