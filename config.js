@@ -7,7 +7,7 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['254765 777423', 'kinflux digital', true],
+  ['12397914699', 'toxic', true],
   ['254110377776', 'zamzack254', true], 
   [''] 
 ] //Number of owners
@@ -47,9 +47,9 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'ₖᵢₙFₗᵤₓ Bₒₜ 🐉'
+global.botname = 'toxic Bₒₜ 🐉'
 global.premium = 'true'
-global.packname = 'kinflux┃ᴮᴼᵀ' 
+global.packname = 'toxic┃ᴮᴼᵀ' 
 global.author = 'zamzack254' 
 global.igfg = '▢ Follow on Instagram\nhttps://chat.whatsapp.com/KggVmnH7ki6HoyD0025gDD\n' 
 global.dygp = 'https://chat.whatsapp.com/KggVmnH7ki6HoyD0025gDD'
