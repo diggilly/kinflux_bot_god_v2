@@ -684,8 +684,8 @@ case 'remove':
                 ppgp = await this.profilePictureUrl(id, 'image');
             } catch (error) {
                 console.error(`Error retrieving profile picture: ${error}`);
-                pp = 'https://i.imgur.com/8B4jwGq.jpeg'; // Assign default image URL
-                ppgp = 'https://i.imgur.com/8B4jwGq.jpeg'; // Assign default image URL
+                pp = 'https://telegra.ph/file/0b814069d86ee9a022da5.jpg'; // Assign default image URL
+                ppgp = 'https://telegra.ph/file/0b814069d86ee9a022da5.jpg'; // Assign default image URL
             } finally {
                 let text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user').replace('@group', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || 'Desconocido') :
                     (chat.sBye || this.bye || conn.bye || 'HELLO, @user')).replace('@user', '@' + user.split('@')[0]);
