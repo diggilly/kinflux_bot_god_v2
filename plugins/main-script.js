@@ -14,7 +14,7 @@ m.reply(`
      httsp://wa.me/254110077535
      httsp://wa.me/254110377776
 ╭───•✧✧•───╮ ≻───── ⋆✩⋆ ─────≺
-bot support group https://chat.whatsapp.com/KggVmnH7ki6HoyD0025gDD
+bot support group https://chat.whatsapp.com/GFMVLmJBvOS2DM9uSlAmCO
 
 ▢ Git : ${_package.homepage}
 ╰───•✧✧•───╯
