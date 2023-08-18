@@ -58,7 +58,7 @@ let infobt = `
 *≡ OWNER*
   *KINFLUX DIGITAL*
 ▢ whatsapp group link :
-  • https://chat.whatsapp.com/KggVmnH7ki6HoyD0025gDD
+  • https://chat.whatsapp.com/GFMVLmJBvOS2DM9uSlAmCO
   
 ▢ GitHub :
   • https://github.com/kinflux_bot_God_v2
