@@ -12,9 +12,11 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     let muptime = clockString(_muptime)
    m.reply(`
 ╭───•✧✧•───╮
-*≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 SCRIPT*
+*≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 *
 ╰───•✧✧•───╯
 ≻───── ⋆✩⋆ ─────≺
+bot group link https://chat.whatsapp.com/GFMVLmJBvOS2DM9uSlAmCO
+
 ⏳ *Kinflux bot active duration*  \n\n${muptime}`) 
 }
 handler.help = ['runtime']
