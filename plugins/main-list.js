@@ -6,7 +6,8 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(850) 
 let lkr = `❀° ┄──•••───╮
       𝐊𝐈𝐍𝐅𝐋𝐔𝐗 𝐁𝐎𝐓 𝙈𝙀𝙉𝙐  
-╰───•••──┄ °❀     
+╰───•••──┄ °❀    
+bot created by kinflux digital
 ┌─⊷ *KINFLUX BOT*
 ▢ .blocklist
 ▢ .info
@@ -205,6 +206,7 @@ let lkr = `❀° ┄──•••───╮
 ▢ .unbanchat
 ▢ .unban @user
 ▢ .update
+group link  https://chat.whatsapp.com/GFMVLmJBvOS2DM9uSlAmCO
 └───────────
 
 ┌─⊷ *ADVANCED*
