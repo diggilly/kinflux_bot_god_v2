@@ -660,8 +660,7 @@ export async function handler(chatUpdate) {
 }
 /**
  * Handle groups participants update
- * @param {import('@adiwajshing/baileys').BaileysEventMap<unknown>['group-participants.update']} groupsUpdate 
- */
+ * @param {import('@adiwajshing/baileys').BaileysEventMap<unknown>['group-participants.update']} groupsUpd
 export async function participantsUpdate({ id, participants, action }) {
     if (opts['self'])
         return
@@ -727,6 +726,119 @@ case 'remove':
  * Handler groups update
  * @param {import('@adiwajshing/baileys').BaileysEventMap<unknown>['groups.update']} groupsUpdate 
  */
+/**
+ * Handle groups participants update
+ * @param {import('@adiwajshing/baileys').BaileysEventMap<unknown>['group-participants.update']} groupsUpdate 
+ */
+export async function participantsUpdate({ id, participants, action }) {
+    if (opts['self'])
+        return
+    // if (id in conn.chats) return // First login will spam
+    if (this.isInit)
+        return
+    if (global.db.data == null)
+        await loadDatabase()
+    let chat = global.db.data.chats[id] || {}
+    let text = ''
+    switch (action) {
+   case 'add':
+            if (chat.welcome) {
+              let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata;
+              for (let user of participants) {
+                let pp, ppgp;
+                try {
+                  pp = await this.profilePictureUrl(user, 'image');
+                  ppgp = await this.profilePictureUrl(id, 'image');
+                } catch (error) {
+                  console.error(`Error retrieving profile picture: ${error}`);
+                  pp = 'https://wallpapercave.com/wp/wp6591551.jpg';
+                  ppgp = 'https://wallpapercave.com/wp/wp6591551.jpg'; 
+                } finally {
+                  let text = (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user')
+                    .replace('@group', await this.getName(id))
+                    .replace('@desc', groupMetadata.desc?.toString() || 'Desconocido')
+                    .replace('@user', '@' + user.split('@')[0]);
+          
+                  let nthMember = groupMetadata.participants.length;
+                  let secondText = `Welcome, ${await this.getName(user)}, our ${nthMember}th member`;
+          
+                  let welcomeApiUrl = `https://wecomeapi.onrender.com/welcome-image?username=${encodeURIComponent(
+                    await this.getName(user)
+                  )}&guildName=${encodeURIComponent(await this.getName(id))}&guildIcon=${encodeURIComponent(
+                    ppgp
+                  )}&memberCount=${encodeURIComponent(
+                    nthMember.toString()
+                  )}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(
+                    'https://wallpapercave.com/wp/wp6591551.jpg'
+                  )}`;
+          
+                  try {
+                    let welcomeResponse = await fetch(welcomeApiUrl);
+                    let welcomeBuffer = await welcomeResponse.buffer();
+          
+                    this.sendFile(id, welcomeBuffer, 'welcome.png', text, null, false, { mentions: [user] });
+                  } catch (error) {
+                    console.error(`Error generating welcome image: ${error}`);
+                  }
+                }
+              }
+            }
+            break;
+
+		case 'remove':
+            if (chat.welcome) {
+              let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata;
+              for (let user of participants) {
+                let pp, ppgp;
+                try {
+                  pp = await this.profilePictureUrl(user, 'image');
+                  ppgp = await this.profilePictureUrl(id, 'image');
+                } catch (error) {
+                  console.error(`Error retrieving profile picture: ${error}`);
+                  pp = 'https://wallpapercave.com/wp/wp6591551.jpg'; 
+                  ppgp = 'https://wallpapercave.com/wp/wp6591551.jpg'; 
+                } finally {
+                  let text = (chat.sBye || this.bye || conn.bye || 'HELLO, @user')
+                    .replace('@user', '@' + user.split('@')[0]);
+          
+                  let nthMember = groupMetadata.participants.length;
+                  let secondText = `Goodbye, our ${nthMember}th group member.we will always miss you from kinflux bot`;
+          
+                  let leaveApiUrl = `https://wecomeapi.onrender.com/leave-image?username=${encodeURIComponent(
+                    await this.getName(user)
+                  )}&guildName=${encodeURIComponent(await this.getName(id))}&guildIcon=${encodeURIComponent(
+                    ppgp
+                  )}&memberCount=${encodeURIComponent(
+                    nthMember.toString()
+                  )}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(
+                    'https://wallpapercave.com/wp/wp6591551.jpg'
+                  )}`;
+          
+                  try {
+                    let leaveResponse = await fetch(leaveApiUrl);
+                    let leaveBuffer = await leaveResponse.buffer();
+          
+                    this.sendFile(id, leaveBuffer, 'leave.png', text, null, false, { mentions: [user] });
+                  } catch (error) {
+                    console.error(`Error generating leave image: ${error}`);
+                  }
+                }
+              }
+            }
+ break
+        case 'promote':
+        case 'promover':
+            text = (chat.sPromote || this.spromote || conn.spromote || '@user is now administrador')
+        case 'demote':
+        case 'degradar':
+            if (!text)
+                text = (chat.sDemote || this.sdemote || conn.sdemote || '@user not now an administrador')
+            text = text.replace('@user', '@' + participants[0].split('@')[0])
+            if (chat.detect)
+                this.sendMessage(id, { text, mentions: this.parseMention(text) })
+            break
+    }
+}
 export async function groupsUpdate(groupsUpdate) {
     if (opts['self'])
         return
