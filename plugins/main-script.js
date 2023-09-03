@@ -5,19 +5,31 @@ let handler = async function (m, { conn, __dirname }) {
 let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
   
 m.reply(`
-╭───•✧✧•───╮
-*≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 SCRIPT*
-╰───•✧✧•───╯
-       ≻───── ⋆✩⋆ ─────≺
-        *owner number*
-    
-     httsp://wa.me/254110077535
-     httsp://wa.me/254110377776
-╭───•✧✧•───╮ ≻───── ⋆✩⋆ ─────≺
-bot support group https://chat.whatsapp.com/GFMVLmJBvOS2DM9uSlAmCO
 
-▢ Git : ${_package.homepage}
-╰───•✧✧•───╯
+*kinflux bot God v2.0 WHATSAPP USER BOT 💃🏻♥️*
+
+_kinflux bot God Is a Multi device Whatsapp User Bot created By kinflux digital, , _
+ᴘʟᴇᴀꜱᴇ ꜱᴛᴀʀ ᴛʜᴇ ʀᴇᴘᴏ ᴀɴᴅ ꜰᴏʟʟᴏᴡ ᴍᴇ ᴏɴ ɢɪᴛʜᴜʙ:
+
+  ▢ Git : ${_package.homepage}
+
+
+⭐ Total Stars: *6*
+🍽️ Forks: *60*
+💭 language : *JavaScript* 
+⚖️ license : *MIT License* 
+⚙️ Branch : *main*
+🧰 Last Updated :2023-08-29T05:10:54Z 
+🚁 owner number : https://wa.me/254110377776
+                : https://wa.me/254110077535
+ 🎌 bot group https://chat.whatsapp.com/GFMVLmJBvOS2DM9uSlAmCO
+              
+      
+*👸Thanks for using kinflux bot God*
+
+*® kinflux digital*
+*© 2023 kinflux digital*
+
 `.trim())
     
 }
