@@ -22,7 +22,7 @@ _kinflux bot God Is a Multi device Whatsapp User Bot created By kinflux digital,
 🧰 Last Updated :2023-08-29T05:10:54Z 
 🚁 owner number : https://wa.me/254110377776
                 : https://wa.me/254110077535
- 🎌 bot group https://chat.whatsapp.com/GFMVLmJBvOS2DM9uSlAmCO
+ 🎌 bot group https://chat.whatsapp.com/BLjStbNJvG2H7Z3hlDmv28
               
       
 *👸Thanks for using kinflux bot God*
