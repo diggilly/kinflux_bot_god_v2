@@ -7,13 +7,13 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['22589747147', 'kinflux bot', true],
+  ['254740654689', 'kinflux bot', true],
   ['254110377776', 'zamzack254', true], 
   [''] 
 ] //Number of owners
 
-global.mods = ['2250789747147','254110377776','254765777423'] 
-global.prems = ['254110077535', '254110377776', '2250545752448']
+global.mods = ['254740654689','254110377776','254765777423'] 
+global.prems = ['254110077535', '254110377776', '254740654689']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -47,7 +47,7 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'kinflux bot God'
+global.botname = 'bot Mickey'
 global.premium = 'true'
 global.packname = 'kinflux ┃ᴮᴼᵀ' 
 global.author = 'kinflux digital' 
@@ -67,7 +67,7 @@ global.error = '❌'
 global.xmoji = '🔥' 
 
 global.multiplier = 69 
-global.maxwarn = '3' // máxima advertencias
+global.maxwarn = '4' // máxima advertencias
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
