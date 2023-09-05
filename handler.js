@@ -754,7 +754,7 @@ export async function participantsUpdate({ id, participants, action }) {
                   pp = 'https://wallpapercave.com/wp/wp6591551.jpg';
                   ppgp = 'https://wallpapercave.com/wp/wp6591551.jpg'; 
                 } finally {
-                  let text = (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user')
+                  let text = (chat.sWelcome || this.welcome || conn.welcome || 'AM KINFLUX BOT welcome, @user, ')
                     .replace('@group', await this.getName(id))
                     .replace('@desc', groupMetadata.desc?.toString() || 'Desconocido')
                     .replace('@user', '@' + user.split('@')[0]);
@@ -769,7 +769,7 @@ export async function participantsUpdate({ id, participants, action }) {
                   )}&memberCount=${encodeURIComponent(
                     nthMember.toString()
                   )}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(
-                    'https://wallpapercave.com/wp/wp6591551.jpg'
+                    'https://telegra.ph/file/0b814069d86ee9a022da5.jpg'
                   )}`;
           
                   try {
@@ -811,7 +811,7 @@ export async function participantsUpdate({ id, participants, action }) {
                   )}&memberCount=${encodeURIComponent(
                     nthMember.toString()
                   )}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(
-                    'https://wallpapercave.com/wp/wp6591551.jpg'
+                    'https://telegra.ph/file/0b814069d86ee9a022da5.jpg'
                   )}`;
           
                   try {
@@ -872,7 +872,7 @@ export async function deleteUpdate(message) {
         if (chat.delete)
             return 
             await this.reply(msg.chat, `
-≡ deleted a message 
+≡ i deleted a message you wrote
 ┌─⊷  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀 
 ▢ *Number :* @${participant.split`@`[0]} 
 └─────────────
