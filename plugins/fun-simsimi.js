@@ -8,17 +8,14 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   
   m.react('🗣️');
   
-  const options = {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: `text=${encodeURIComponent(text)}&lc=en&key=`
-  };
-
-  const res = await fetch('https://api.simsimi.vn/v1/simtalk', options);
+  const uid = encodeURIComponent(m.sender);
+  const msg = encodeURIComponent(text);
+  
+  const res = await fetch(`http://api.brainshop.ai/get?bid=176001&key=M4fzqfe99b3THOYi&uid=${uid}&msg=${msg}`);
   const json = await res.json();
   
-  if (json.status === '200') {
-    const reply = json.message;
+  if (json.cnt) {
+    const reply = json.cnt;
     m.reply(reply);
   } else {
     throw json;
@@ -30,4 +27,3 @@ handler.tags = ['fun'];
 handler.command = ['bot', 'alexa'];
 
 export default handler;
-
