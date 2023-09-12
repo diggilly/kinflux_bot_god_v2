@@ -7,8 +7,8 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['22589747147', 'kinflux bot', true],
-  ['254110377776', 'zamzack254', true], 
+  ['254110377776', 'kinflux bot', true],
+  ['+254110377776', 'zamzack254', true], 
   [''] 
 ] //Number of owners
 
@@ -47,7 +47,7 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'bot Mickey'
+global.botname = 'kinflux bot god'
 global.premium = 'true'
 global.packname = 'kinflux ┃ᴮᴼᵀ' 
 global.author = 'kinflux digital' 
