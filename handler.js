@@ -282,7 +282,7 @@ export async function handler(chatUpdate) {
                 if (!('detect' in chat))
                     chat.detect = false
                 if (!('sWelcome' in chat))
-                    chat.sWelcome = ''
+                    chat.sWelcome = 'hello am kinflux bot.A whatsapp bot created by kinflux digital'
                 if (!('sBye' in chat))
                     chat.sBye = ''
                 if (!('sPromote' in chat))
@@ -294,13 +294,13 @@ export async function handler(chatUpdate) {
                 if (!('antiLink' in chat))
                     chat.antiLink = false
                 if (!('viewonce' in chat))
-                    chat.viewonce = false
+                    chat.viewonce = true
                 if (!('antiToxic' in chat))
                     chat.antiToxic = false
                 if (!('simi' in chat))
-                    chat.simi = false
+                    chat.simi = true
                 if (!('autosticker' in chat))
-                    chat.autosticker = false
+                    chat.autosticker = true
                 if (!('premium' in chat))
                     chat.premium = false
                  if (!('onlyenglish' in chat))
@@ -336,15 +336,15 @@ export async function handler(chatUpdate) {
             if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {}
             if (settings) {
                 if (!('self' in settings)) settings.self = false
-                if (!('autoread' in settings)) settings.autoread = false
+                if (!('autoread' in settings)) settings.autoread = true
                 if (!('restrict' in settings)) settings.restrict = false
                 if (!('anticall' in settings)) settings.anticall = true
-                if (!('autorestart' in settings)) settings.autorestart = false
+                if (!('autorestart' in settings)) settings.autorestart = true
                 if (!('restartDB' in settings)) settings.restartDB = 0
             } else global.db.data.settings[this.user.jid] = {
                 self: false,
-                autoread: false,
-                autorestart: false,
+                autoread: true,
+                autorestart: true,
                 anticall: true,
                 restartDB: 0,
                 restrict: false
