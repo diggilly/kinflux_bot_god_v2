@@ -15,7 +15,7 @@ _kinflux bot God Is a Multi device Whatsapp User Bot created By kinflux digital,
 
 
 ⭐ Total Stars: *6*
-🍽️ Forks: *90*
+🍽️ Forks: *100*
 💭 language : *JavaScript* 
 ⚖️ license : *MIT License* 
 ⚙️ Branch : *main*
