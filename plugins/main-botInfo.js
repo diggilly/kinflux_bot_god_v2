@@ -58,15 +58,14 @@ let infobt = `
 *≡ OWNER*
   *KINFLUX DIGITAL*
 ▢ whatsapp group link :
-  • https://chat.whatsapp.com/GFMVLmJBvOS2DM9uSlAmCO
-  
+  • https://chat.whatsapp.com/BLjStbNJvG2H7Z3hlDmv28
 ▢ GitHub :
   • https://github.com/kinflux_bot_God_v2
 ▢ Telegram : 
   • t.me/kinflux_bot 
 ▢ owner number : 
-  • wa.me/254110077535
   • wa.me/254110377776
+  • wa.me/22589747147
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
