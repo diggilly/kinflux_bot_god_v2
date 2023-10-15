@@ -15,7 +15,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 *
 ╰───•✧✧•───╯
 ≻───── ⋆✩⋆ ─────≺
-bot group link https://chat.whatsapp.com/GFMVLmJBvOS2DM9uSlAmCO
+bot group link https://chat.whatsapp.com/BLjStbNJvG2H7Z3hlDmv28
 
 ⏳ *Kinflux bot active duration*  \n\n${muptime}`) 
 }
