@@ -280,11 +280,11 @@ export async function handler(chatUpdate) {
                 if (!('welcome' in chat))
                     chat.welcome = true
                 if (!('detect' in chat))
-                    chat.detect = false
+                    chat.detect = true
                 if (!('sWelcome' in chat))
-                    chat.sWelcome = 'hello am kinflux bot.A whatsapp bot created by kinflux digital'
+                    chat.sWelcome = 'true'
                 if (!('sBye' in chat))
-                    chat.sBye = ''
+                    chat.sBye = 'true'
                 if (!('sPromote' in chat))
                     chat.sPromote = ''
                 if (!('sDemote' in chat))
@@ -311,6 +311,8 @@ export async function handler(chatUpdate) {
                     chat.premnsfw = false
                 if (!isNumber(chat.expired))
                     chat.expired = 0
+		if (!("chatbot" in chat)) 
+		    chat.chatbot = true
             } else
                 global.db.data.chats[m.chat] = {
                     isBanned: false,
