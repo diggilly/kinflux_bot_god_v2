@@ -7,12 +7,12 @@ import axios from 'axios'
 
 
 global.owner = [
-  ['254768005355', 'kinflux bot', true],
+  ['13374230362', 'kinflux bot', true],
   ['+254110377776', 'zamzack254', true], 
   [''] 
 ] //Number of owners
 
-global.mods = ['22589747147','254110377776','254765777423'] 
+global.mods = ['13374230362','254110377776','254765777423'] 
 global.prems = ['22589747147', '254110377776', '254740654689']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
