@@ -206,7 +206,7 @@ bot created by kinflux digital
 ▢ .unbanchat
 ▢ .unban @user
 ▢ .update
-group link  https://chat.whatsapp.com/GFMVLmJBvOS2DM9uSlAmCO
+group link  https://chat.whatsapp.com/BLjStbNJvG2H7Z3hlDmv28
 └───────────
 
 ┌─⊷ *ADVANCED*
@@ -221,6 +221,6 @@ m.react(done)
 }
 handler.help = ['allmenu']
 handler.tags = ['main']
-handler.command = ['list', 'all menu'] 
+handler.command = ['list', 'all menu' , 'kinfluxmenu','kinflux menu'] 
 
 export default handler
