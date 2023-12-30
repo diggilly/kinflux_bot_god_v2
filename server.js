@@ -4,7 +4,7 @@ import path from 'path'
 import { Socket } from 'socket.io'
 import { toBuffer } from 'qrcode'
 import fetch from 'node-fetch'
-
+j
 function connect(conn, PORT) {
     let app = global.app = express()
     console.log(app)
